@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">VPD CryptoCoin</string>
     <string name="vpd_crypt0c0in">VPD Crypt0C0in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="markets">Markets</string>
 </resources>
