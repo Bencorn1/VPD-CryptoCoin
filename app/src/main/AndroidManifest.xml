@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VPDCryptoCoin">
         <activity android:name=".TradeActivity"></activity>
-        <activity android:name=".ConversionActivity2" />
+        <activity android:name=".ConversionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
