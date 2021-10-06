@@ -7,60 +7,60 @@
     android:background="@color/transparent_white"
     tools:context=".ConvertFragment">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/background_gradient"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="@drawable/background_gradient"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
 
-        <ImageView
-            android:id="@+id/convertBack"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginStart="5dp"
-            android:src="@drawable/ic_baseline_arrow_back_24" />
+<!--        <ImageView-->
+<!--            android:id="@+id/convertBack"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:src="@drawable/ic_baseline_arrow_back_24" />-->
 
-        <TextView
-            android:id="@+id/convertTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="120dp"
-            android:fontFamily="@font/roboto_bold_italic"
-            android:text="@string/convert"
-            android:textColor="@color/white"
-            android:textSize="35sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/convertTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="120dp"-->
+<!--            android:fontFamily="@font/roboto_bold_italic"-->
+<!--            android:text="@string/convert"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="35sp" />-->
 
-    </androidx.appcompat.widget.Toolbar>
+<!--    </androidx.appcompat.widget.Toolbar>-->
 
     <TextView
         android:id="@+id/f_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="@font/roboto_thin"
         android:text="@string/from"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="380dp"
         android:layout_height="79dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="8dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="38dp"
         app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        app:layout_constraintTop_toBottomOf="@+id/f_text">
 
         <Spinner
             android:id="@+id/spinner"
@@ -77,11 +77,11 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="22sp"
             android:layout_gravity="center"
             android:layout_marginEnd="70dp"
             android:inputType="numberDecimal"
-            android:textStyle="normal"/>
+            android:textSize="22sp"
+            android:textStyle="normal" />
 
         <TextView
             android:id="@+id/maxText"
@@ -115,13 +115,13 @@
         android:id="@+id/to_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/roboto_thin"
         android:text="@string/to"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/available" />
 
@@ -129,15 +129,14 @@
         android:id="@+id/cardView2"
         android:layout_width="380dp"
         android:layout_height="79dp"
+        android:layout_marginTop="8dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="38dp"
         app:cardElevation="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527">
+        app:layout_constraintTop_toBottomOf="@+id/to_text">
 
         <Spinner
             android:id="@+id/spinner2"
@@ -175,20 +174,20 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.utils.widget.MotionButton
-        android:id="@+id/convertBtn"
-        android:layout_width="270dp"
-        android:layout_height="70dp"
-        android:background="@drawable/background_gradient"
-        android:clickable="true"
-        android:focusable="true"
-        android:text="@string/convert"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        app:layout_constraintVertical_bias="0.770"/>
+            android:id="@+id/convertBtn"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:background="@drawable/background_gradient"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/convert"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintVertical_bias="0.770" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
