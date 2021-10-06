@@ -10,4 +10,10 @@
     <string name="available_btc">Available: 0.501000000 BTC</string>
     <string name="to">To</string>
     <string name="convert">Convert</string>
+    <string name="price">$33,850.15</string>
+    <string name="market_price">Market Price</string>
+    <string name="price_usdt">Price (USDT)</string>
+    <string name="amount_btc">Amount (BTC)</string>
+    <string name="total_usdt">Total (USDT)</string>
+    <string name="buy">Buy</string>
 </resources>
