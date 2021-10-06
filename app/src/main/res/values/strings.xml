@@ -15,4 +15,5 @@
     <string name="total_usdt">Total (USDT)</string>
     <string name="buy">Buy</string>
     <string name="convert">Convert</string>
+    <string name="trade">Trade</string>
 </resources>
