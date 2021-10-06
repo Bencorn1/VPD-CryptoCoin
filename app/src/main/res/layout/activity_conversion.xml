@@ -53,11 +53,7 @@
             android:fontFamily="@font/roboto"
             android:text="@string/from"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.043"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="18sp"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -66,11 +62,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginStart="18dp"
             app:cardBackgroundColor="@color/transparent_white"
-            app:cardCornerRadius="38dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/f_text">
+            app:cardCornerRadius="38dp">
 
             <Spinner
                 android:id="@+id/spinner"
@@ -116,26 +108,18 @@
             android:layout_marginStart="20dp"
             android:text="@string/available_btc"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.123"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+            android:textSize="20sp"/>
 
-                <TextView
-                    android:id="@+id/to_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="200dp"
-                    android:layout_marginStart="25dp"
-                    android:fontFamily="@font/roboto"
-                    android:text="@string/to"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.038"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/available" />
+        <TextView
+            android:id="@+id/to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/to"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
@@ -144,11 +128,7 @@
             android:layout_marginTop="225dp"
             android:layout_marginStart="18dp"
             app:cardBackgroundColor="@color/transparent_white"
-            app:cardCornerRadius="38dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/f_text">
+            app:cardCornerRadius="38dp">
 
             <Spinner
                 android:id="@+id/spinner2"
@@ -197,14 +177,8 @@
             android:textSize="25sp"
             android:layout_gravity="bottom"
             android:layout_marginStart="75dp"
-            android:layout_marginBottom="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView2"
-            app:layout_constraintVertical_bias="0.770" />
-<!--        -->
+            android:layout_marginBottom="50dp" />
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
