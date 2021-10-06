@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_gradient">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025">
+
+        <TextView
+            android:id="@+id/marketsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/markets"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.085"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="8dp"-->
+        <!--                    android:layout_marginTop="10dp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:padding="5dp"-->
+        <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                    app:layout_constraintStart_toStartOf="parent"-->
+        <!--                    app:layout_constraintTop_toBottomOf="@+id/cardView3">-->
+
+        <!--                    &lt;!&ndash;Text in the CardView&ndash;&gt;-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/food_name"-->
+        <!--                        android:layout_width="250dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="start"-->
+        <!--                        android:layout_marginStart="1dp"-->
+        <!--                        android:gravity="start"-->
+        <!--                        android:letterSpacing="0.10"-->
+        <!--                        android:text="@string/food_name"-->
+        <!--                        android:textColor="@color/black"-->
+        <!--                        android:textSize="17sp"-->
+        <!--                        android:textStyle="bold" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/food_price_tag"-->
+        <!--                        android:layout_width="100dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end"-->
+        <!--                        android:layout_marginStart="3dp"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:letterSpacing="0.10"-->
+        <!--                        android:text="@string/price_tag"-->
+        <!--                        android:textColor="@color/black"-->
+        <!--                        android:textSize="17sp"-->
+        <!--                        android:textStyle="bold" />-->
+
+        <!--                </LinearLayout>-->
+
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/bg_img"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:background="@color/orange"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.203" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
