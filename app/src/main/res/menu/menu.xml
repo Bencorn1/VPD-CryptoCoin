@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trade"
+        android:icon="@drawable/ic_baseline_swap_horiz_24"
+        android:title="Trade" />
+
+    <item
+        android:id="@+id/markets"
+        android:title="Markets" />
+
+    <item
+        android:id="@+id/convert"
+        android:icon="@drawable/ic_baseline_local_convenience_store_24"
+        android:title="Convert" />
+
+</menu>

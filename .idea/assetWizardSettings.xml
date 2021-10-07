@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/do_not_disturb_on/baseline_do_not_disturb_on_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/local_convenience_store/baseline_local_convenience_store_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,7 +28,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_do_not_disturb_on_24" />
+                            <entry key="outputName" value="ic_baseline_local_convenience_store_24" />
                           </map>
                         </option>
                       </PersistentState>
